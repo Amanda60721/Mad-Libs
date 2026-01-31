@@ -1,3 +1,6 @@
+#This is Amanda's computerized MadLibs created January 29th,2026
+
+#added January 29th,2026
 def Welcome_To_The_Future():
     number1 = input("Number: ")
     adjective1 = input("Adjective: ")
@@ -27,6 +30,7 @@ def Welcome_To_The_Future():
     print (f"{animal2}-Men could strike at any time. Maybe we should {verb2} once and for all. Maybe it's time to raise our {noun4} in the air")
     print (f" and fight for what's right. That's what heroes would do.")
 
+#added January 30th, 2026
 def Deepest_Apologies():
     name1 = input("Last Name: ")
     adjective1 = input("Adjective: ")
@@ -60,6 +64,7 @@ def Deepest_Apologies():
     print(f"Sincerly,")
     print(f"{person1}")
 
+#added January 30th, 2026
 def Little_League_Baseball():
     noun1 = input("Plural Noun: ")
     noun2 = input("Plural Noun: ")
@@ -82,12 +87,9 @@ def Little_League_Baseball():
     print(f"When a/an {noun3} goes out for a Little League team, he is given {adjective1} tests in fielding fast")
     print(f"{noun4} and in hitting. He can either play in the {adjective2} field or in the {adjective3} field.")
     print(f"Or if he has a good throwing {body1}, he can be a pitcher or catcher. If he can't do anything, he can sit on the")
-    print(f"{noun5}. But no matter what position he plays, a Little Leaguer learns to work with his fellow {job1}. if you")
+    print(f"{noun5}. But no matter what position he plays, a Little Leaguer learns to work with his fellow {job1}. If you")
     print(f"play with a Little League team, who knows, you may become a famous Big League baseball player like {person1}")
     
-
-
-
 
 
 print("1. Welcome To The Future")

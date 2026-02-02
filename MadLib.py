@@ -90,11 +90,43 @@ def Little_League_Baseball():
     print(f"{noun5}. But no matter what position he plays, a Little Leaguer learns to work with his fellow {job1}. If you")
     print(f"play with a Little League team, who knows, you may become a famous Big League baseball player like {person1}")
     
+#Added February 1st, 2026
+def Vacations():
+    adjective1 = input("Adjective: ")
+    adjective2 = input("Adjective: ")
+    noun1 = input("Noun: ")
+    noun2 = input("Noun: ")
+    noun3 = input("Plural Noun: ")
+    game1 = input("Game: ")
+    noun4 = input("Plural Noun: ")
+    verb1 = input("Verb ending in 'ing': ")
+    verb2 = input("Verb ending in 'ing': ")
+    noun5 = input("Plural Noun: ")
+    verb3 = input("Verb ending in 'ing': ")
+    noun6 = input("Noun: ")
+    plant1 = input("Plant: ")
+    body1 = input("Part of the body: ")
+    place1 = input("A place: ")
+    verb4 = input("Verb ending in 'ing': ")
+    adjective3 = input("Adjective: ")
+    number1 = input("Number: ")
+    noun7 = input("Plural Noun: ")
+    
+    print("Vacations")
+    print()
+    print(f"A vacation is when you take a trip to some {adjective1} place with your {adjective2} family. Usually you go to some place that is near a/an {noun1} or up on a/an {noun2}.")
+    print(f"A good vacation place is one where you can ride {noun3} or play {game1} or go hunting for {noun4}. I like to spend my time {verb1} or {verb2}.")
+    print(f"When parents go on a vacation, they spend their time eating three {noun5} a day, and fathers play golf, and mothers sit around {verb3}. Last summer, my little brother")
+    print(f"fell in a/an {noun6} and got poison {plant1} all over his {body1}. My family is going to (the) {place1}, and I will practice {verb4}. Parents need vacations more than kids")
+    print(f"because parents are always very {adjective3} and because they have to work {number1} hours every day all year making enough {noun7} to pay for the vacation")
+    
+
 
 
 print("1. Welcome To The Future")
 print("2. Deepest Apologies")
 print("3. Little League Baseball")
+print("4. Vacations")
 story = input("Enter the number of the Mad Lib you'd like to do: ")
 if story == "1":
     Welcome_To_The_Future()
@@ -102,3 +134,5 @@ if story == "2":
     Deepest_Apologies()
 if story == "3":
     Little_League_Baseball()
+if story == "4":
+    Vacations()

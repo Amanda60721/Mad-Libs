@@ -121,12 +121,37 @@ def Vacations():
     print(f"because parents are always very {adjective3} and because they have to work {number1} hours every day all year making enough {noun7} to pay for the vacation")
     
 
-
+#Added February 10th, 2026
+def A_Peanut_and_His_Pooch():
+     animal1 = input("Animal: ")
+     adjective1 = input("Adjective: ")
+     adjective2 = input("Adjective: ")
+     adjective3 = input("Adjective: ")
+     noun1 = input("Noun: ")
+     noun2 = input("Noun: ")
+     adjective4 = input("Adjective: ")
+     food1 = input("Type of food: ")
+     place1 = input("A place: ")
+     adjective5 = input("Adjective: ")
+     place2 = input("A place: ")
+     noun3 = input("Noun: ")
+     noun4 = input("Noun: ")
+     noun5 = input("Noun: ")
+     
+     print("A Peanut and His Pooch")
+     print()
+     print(f"If you've ever met my {animal1}, Snoopy, then you know he's not your average canine companion. Some kids might find it {adjective1} that their beagle")
+     print(f"has such a/an {adjective2} imagination, but not me! All I've ever wanted was a normal, {adjective3} dog. Why can't I have a/an {noun1} just like everyone")
+     print(f"else? Instead, I've got a part-time pet, part-time World War I pilot, part-time {noun2}, and a full-time pain! {adjective4} grief! Sometimes he looks")
+     print(f"at me like I'm chopped {food1}-good for nothing except bringing his dinner out to (the) {place1}. Still, it sure is nice to have someone with really {adjective5}")
+     print(f"ears around. And after a long day at (the) {place2}, there's nothing better than coming home to a wet {noun3} on the cheek. Aw, who am I kidding?")
+     print(f"I'm really lucky to have a/an {noun4} like Snoopy. They don't call dogs man's best {noun5} for nothing!")
 
 print("1. Welcome To The Future")
 print("2. Deepest Apologies")
 print("3. Little League Baseball")
 print("4. Vacations")
+print("5. A Peanut and His Pooch")
 story = input("Enter the number of the Mad Lib you'd like to do: ")
 if story == "1":
     Welcome_To_The_Future()
@@ -136,3 +161,5 @@ if story == "3":
     Little_League_Baseball()
 if story == "4":
     Vacations()
+if story == "5":
+    A_Peanut_and_His_Pooch()
